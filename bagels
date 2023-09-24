@@ -1,0 +1,21 @@
+import random
+
+print("Bagels, by Astrie uwasterie07@gmail.com")
+
+
+num_digits = 2
+max_guesses = 5
+def main():
+    print("Bagels, a deductive logic game.")
+
+    print(f" I am thinking of a {num_digits}-digit number with no repeated digits.")
+
+    print("Try to guess what it is. Here are some clues: \n For example,\n Pico means: One digit is correct but in the wrong position.\n Fermi means: One digit is correct and in the right position.\nBagels meansNo digit is correct.")
+
+    print(" For example, if the secret number was 248 and your guess was 843, \n the clues would be Fermi Pico.'''.format(NUM_DIGITS))")
+
+    while true: 
+        secretNum = getSecretNum()
+        print("I have ")
+
+
